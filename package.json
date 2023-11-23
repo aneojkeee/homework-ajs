@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneojkeee/homework-ajs.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "vladislavmashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aneojkeee/homework-ajs/issues"
+  },
+  "homepage": "https://github.com/aneojkeee/homework-ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.33.3"
+  }
+}
